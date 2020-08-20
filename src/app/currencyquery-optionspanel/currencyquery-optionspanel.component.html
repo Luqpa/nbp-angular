@@ -1,0 +1,55 @@
+<div class="containerOptionPanelCurrencySet">
+	<mat-card class="matcardOptionsPanel">
+
+        <mat-card-title>Options</mat-card-title>
+        <mat-card-subtitle>Currency Query</mat-card-subtitle>
+        <mat-card-content>
+
+            <mat-form-field >
+                <mat-label>Select currency</mat-label>
+                <mat-select [(value)]="this.queryOptionsSelected.currency">
+                  <mat-option *ngFor="let currencyitem of selectDataSource" [value]="currencyitem.refnbpname">
+                    {{currencyitem.name}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field >
+                <mat-label>Select table</mat-label>
+                <mat-select [(value)]="this.queryOptionsSelected.table">
+                  <mat-option *ngFor="let currencytableitem of selectTableDataSource" [value]="currencytableitem.name">
+                    {{currencytableitem.name}}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <mat-label>Days to query</mat-label>
+                <input 
+                matInput 
+                type="number"
+                min="1"
+                max="30" 
+                placeholder="30"
+                [formControl]="this.queryOptionsSelected.timespan"
+                
+                />
+                <div
+                    
+                    *ngIf="this.queryOptionsSelected.timespan.errors"
+                >Please enter a value between 1 and 30
+                </div>
+            </mat-form-field>
+         
+            <button 
+                mat-flat-button color="primary"
+                (click)="queryIssued($event)"
+            > 
+            Query </button>
+        </mat-card-content>
+        
+        
+    
+    </mat-card>
+       
+</div>

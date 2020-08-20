@@ -1,0 +1,47 @@
+<div class="containerInfoselectedCurrency">
+    <mat-card>
+        
+
+        <div class="containerMatHeader">
+            <div class="containerIcon">
+                <div class="imgWrapper">
+                    <img [src]="receivedSelectedCurrencyRate.iconpath" />
+                </div>
+            </div>
+            <div class="containerTitles">
+                <mat-card-title>{{ receivedSelectedCurrencyRate.name }}</mat-card-title>
+                <mat-card-subtitle>{{ receivedSelectedCurrencyRate.shortname }}</mat-card-subtitle>
+            </div>
+            <div class="containerAdditions">
+                
+            </div>
+        </div>
+
+        <mat-card-content>
+
+            <div 
+                *ngIf="receivedSelectedCurrencyRate.isrowselected"
+                class="containerDetailedInfo"
+            >
+                <h5> Data taken from currency table: Ao</h5>
+                <div class="row">
+                    <div>Number:</div> <div> {{ receivedSelectedCurrencyRate.table }} </div>
+                </div>
+                <div class="row">
+                    <div>Effective Date:</div> <div> {{ receivedSelectedCurrencyRate.effdate }} </div>
+                </div>
+                <div class="row">
+                    <div>Mid:</div> <div>	{{ receivedSelectedCurrencyRate.rate }}  </div>
+                </div>
+            </div>            
+
+        </mat-card-content>
+
+        <div 
+            [style.background-image]="'url(&quot;' + this.receivedSelectedCurrencyRate.bgcountryimagepath + '&quot;)'"
+            class="containerTriangleFlag"
+
+        > &nbsp;</div>
+
+    </mat-card>
+</div>

@@ -1,0 +1,7 @@
+{
+  "nbpUrl": "http://api.nbp.pl",
+  "endpoints": {
+  	"singlecurrency": "exchangerates/rates/"
+  },
+  "textfile": "assets/textfile1111.txt"
+}

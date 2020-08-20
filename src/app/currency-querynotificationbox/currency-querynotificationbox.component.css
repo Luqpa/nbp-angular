@@ -1,0 +1,11 @@
+.containerNotificationBox {}
+.containerNotificationBox .matcardNotifcationBox 
+{
+    margin:30px 0;
+    background-color:#f4f4f4;
+}
+.containerNotificationBox .matcardNotifcationBox mat-card-title,
+.containerNotificationBox .matcardNotifcationBox mat-card-subtitle
+{
+    color:rgba(170, 24, 24, 0.87);
+}

@@ -1,0 +1,193 @@
+.containerInfoselectedCurrency {
+    margin:30px 0;
+    
+}
+
+.containerInfoselectedCurrency mat-card 
+{
+    overflow: hidden;
+}
+
+.containerInfoselectedCurrency .containerMatHeader {
+    padding:0 0 15px 0;    
+
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    position: relative;z-index:50;
+
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+.containerInfoselectedCurrency .containerMatHeader .containerIcon
+{
+    margin-right:15px;
+
+    flex:0 0 50px;
+
+}
+
+.containerInfoselectedCurrency .containerMatHeader .containerIcon .imgWrapper
+{
+    width:50px;height:50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+    border:1px solid rgba(0,0,0,0.2);
+    background:#e1e1e1;
+}
+
+.containerInfoselectedCurrency .containerMatHeader .containerIcon .imgWrapper img 
+{
+    margin:auto;
+
+    max-width: 35px;height: auto;
+
+    display:block;
+}
+
+.containerInfoselectedCurrency .containerMatHeader .containerTitles{
+    flex:0 1 60%;
+}
+
+.containerInfoselectedCurrency mat-card-title {
+    margin-bottom:2px;
+}
+
+.containerInfoselectedCurrency mat-card-subtitle
+{   
+    margin:0;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+}
+
+.containerInfoselectedCurrency .containerMatHeader .containerAdditions{
+    min-height: 60px;
+    flex:0 0 20%;
+
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.containerInfoselectedCurrency .containerMatHeader .containerAdditions .imgWrapper
+{
+    width:50px;height:50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+    border:1px solid rgba(0,0,0,0.2);
+    background:#e1e1e1;
+}
+
+.containerInfoselectedCurrency .containerMatHeader .containerAdditions img {
+    margin:auto;
+
+    max-width: 35px;height: auto;
+
+    display:block;
+}
+
+
+
+.containerInfoselectedCurrency mat-card
+{
+    position: relative;
+    background:#f4f4f4;
+}
+
+.containerInfoselectedCurrency mat-card .containerTriangleFlag
+{
+    /*width:0;height:0;*/
+
+    position: absolute;right:0px;top:0px;z-index:10;
+
+    width: 120px; 
+    height: 90px; 
+
+    opacity:0.8;
+
+    /*background-image:url('https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2008/11/flag_of_the_czech_republic_esa_s_18th_member_state/10049537-2-eng-GB/Flag_of_the_Czech_Republic_ESA_s_18th_Member_State_pillars.jpg');*/
+    background-size:cover; 
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+
+
+
+.containerInfoselectedCurrency mat-card-content
+{
+    margin:15px auto 0 auto;
+    max-width: 90%;min-height:90px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    position: relative;z-index:50;
+}
+
+.containerInfoselectedCurrency .containerGeneralInfo {
+    
+    flex:0 0 50%;
+
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+.containerInfoselectedCurrency .containerGeneralInfo .row {
+    flex:0 0 100%;
+    display:flex;
+}
+
+.containerInfoselectedCurrency .containerGeneralInfo .row div:nth-child(1)
+{
+    flex:0 0 120px;
+    font-weight: 600;
+    text-align:right;
+}
+.containerInfoselectedCurrency .containerGeneralInfo .row div:nth-child(2)
+{
+    margin-left:15px;
+}
+
+
+
+.containerInfoselectedCurrency .containerDetailedInfo {
+    flex:0 0 100%;
+
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerInfoselectedCurrency .containerDetailedInfo h5 {
+    flex:0 0 100%;
+}
+
+.containerInfoselectedCurrency .containerDetailedInfo .row {
+    margin-right:15px;
+    flex:0 0 30%;
+    display:flex;
+}
+
+.containerInfoselectedCurrency .containerDetailedInfo .row div:nth-child(1)
+{
+    flex:0 0 150px;
+    font-weight: 600;
+    text-align:right;
+}
+.containerInfoselectedCurrency .containerDetailedInfo .row div:nth-child(2)
+{
+    margin-left:15px;
+}

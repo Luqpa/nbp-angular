@@ -1,0 +1,18 @@
+<div class="containerNotificationBox">
+    
+    <mat-card class="matcardNotifcationBox">
+
+        <mat-card-title> {{ passedQueryError.error }} </mat-card-title>
+        <mat-card-subtitle> {{ passedQueryError.name }} </mat-card-subtitle>
+        <mat-card-content>
+            <ul>
+                
+                <li> Message: {{ passedQueryError.message }} </li>
+                <li> StatusText: {{ passedQueryError.statustext }} </li>
+                <li> Url: {{ passedQueryError.url }} </li>
+            </ul>
+            
+        </mat-card-content>
+
+    </mat-card>
+</div>

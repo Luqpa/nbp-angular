@@ -1,0 +1,63 @@
+.containerCurrencyTable
+{
+	max-height: 60vh;
+	overflow-y: scroll;
+}
+
+.table-single-currency {
+	width:100%;
+}
+
+.table-single-currency tr {
+	
+}
+.table-single-currency tr td
+{
+
+}
+
+.table-single-currency tfoot,
+.table-single-currency thead
+{
+	color:#fff;
+	background:#e1e1e1!important;
+
+	
+}
+
+.table-single-currency tr:not(.mat-header-row):not(.mat-footer-row)
+{
+	cursor:hand;cursor:pointer;
+}
+
+
+
+.table-single-currency tr.mat-footer-row, 
+.table-single-currency tr.mat-header-row 
+{
+	background-color:#4d4d4d;
+}
+.table-single-currency tr.mat-footer-row td,
+.table-single-currency tr.mat-header-row th
+{
+	color:#fff;
+}
+
+.table-single-currency .cdk-row:nth-child(2n+1) {
+	background-color:#f4f4f4;
+}
+
+
+.table-single-currency tr.mat-footer-row mat-footer-cell
+{
+	
+}
+
+.table-single-currency .tableRowSelected {
+	/*background-color:#8a8a8a;*/
+}
+
+.table-single-currency .tableRowSelected td {
+	/*color:#fff;*/
+	border-bottom:2px solid #55b2ea;
+}
