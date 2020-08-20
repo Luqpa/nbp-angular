@@ -18,7 +18,7 @@ import { CurrencySelectionButtonsComponent } from './currency-selection-buttons/
 import { CurrencyqueryOptionspanelComponent } from './currencyquery-optionspanel/currencyquery-optionspanel.component';
 
 /*
-* Reactive Forms
+* *Reactive Forms
 */
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
